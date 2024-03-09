@@ -1,0 +1,54 @@
+body
+{
+    background-color: rgb(126, 126, 126);
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Discovery;
+    src: url(fonts/OpenSans-Semibold.ttf);
+}
+a
+{
+    text-decoration: none;    
+}
+.titulo
+{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 2, 2);
+}
+.space
+{
+    position: static;
+    background-color: white;
+    height: 600px;
+    margin: 0;
+    padding: 2px;
+}
+.publicidad
+{
+    background-color: black;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border: solid 1px;
+    border-color: black;
+}
+.banco
+{
+    font-family: discovery;
+    font-size: 490%;
+    position: relative;
+    padding: 15px;
+
+}
+.registrado
+{
+    font-size: 40%;
+    position: absolute
+}
+.subanco
+{
+
+}
