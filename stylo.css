@@ -16,32 +16,99 @@ a
 {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(5, 2, 2);
+    color: rgb(255, 255, 255);
 }
 .space
 {
-    position: static;
-    background-color: white;
-    height: 600px;
+    position: relative;
+    background-color: rgb(236, 214, 196);
+    height: 700px;
     margin: 0;
-    padding: 2px;
+    padding: 20px;
+}
+.textoanimado
+{
+    height: 400px;
+    width: 490px;
+    background-color: none;
+}
+.rosa1
+{
+    position: absolute; 
+    top: 400px;  
+    left: 400px;  
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    background-color: rgb(224, 35, 129);
+}
+.mamei1
+{
+    margin: auto;
+    position: absolute; 
+    top: 400px; 
+    left: 400px; 
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    border-radius:  100%;
+    background-color: rgb(230, 162, 35);
+    z-index: 0;
+}
+.blanco
+{
+    margin: auto;
+    position: absolute; 
+    top: 400px; 
+    left: 400px; 
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 150px;
+    border-radius:  100%;
+    background-color: rgb(0, 0, 0);
 }
 .publicidad
 {
-    background-color: black;
+    background-color: rgb(255, 253, 253);
     position: absolute;
     height: 500px;
-    width: 500px;
-    border: solid 1px;
-    border-color: black;
+    width: 530px;
+    padding-left: 37px;
+    padding-top: 10px;
+    right: auto;
 }
+.tarjetita
+{
+    position: absolute;
+    height: 450px;   
+    z-index: 1;
+    margin-left: 30px;
+    margin-top: -50px;
+}
+.tapafoot
+{
+    position: relative;
+    margin-top: 510px;
+    height: 220px;
+    width: 700px;
+    background-color: rgb(236, 214, 196);
+    z-index: 1;
+}
+
 .banco
 {
     font-family: discovery;
-    font-size: 490%;
+    font-size: 450%;
     position: relative;
-    padding: 15px;
-
+    color: #ec6b29;
+}
+.intro
+{
+    top: 2%;
+    font-family: discovery;
+    font-size: 450%;
+    color: rgb(1, 1, 65);
 }
 .registrado
 {
@@ -50,5 +117,20 @@ a
 }
 .subanco
 {
+    font-family: discovery;
+    font-size: 450%;
+    margin-top: 5px;
+    color: #ec6b29;
+}
 
+.fdic
+{
+    margin-top: auto;
+    height: 50px;
+    width: 490px;
+    background-color: none;
+}
+.foot
+{
+    font-family: discovery;
 }
